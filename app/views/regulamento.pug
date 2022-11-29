@@ -1,0 +1,30 @@
+extends ./layout
+
+block content
+  .page-header
+    h1 Regulamento da competição
+  ul
+    li(style="list-style:upper-alpha;") A competição será disputada em turno único, sendo 3 jogos para cada time participante em campo neutro, classificando-se os dois primeiros colocados para a final;
+      ul
+        li(style="list-style:decimal;") A colocação do turno será definida pelo número de pontos seguindo os critérios de desempate descritos no item B;  a vitória vale 3 (três) pontos e o empate 1 (hum) ponto.
+        li(style="list-style:decimal;") Na final, o time com melhor colocação ao término do turno poderá jogar pelo empate.
+    li(style="list-style:upper-alpha;") Caso haja empate em número de pontos, serão adotados os seguintes critérios de classificação:
+      ul
+        li(style="list-style:decimal;") Maior número de vitórias
+        li(style="list-style:decimal;") Maior saldo de gols
+        li(style="list-style:decimal;") Maior número de gols a favor
+        li(style="list-style:decimal;") Confronto direto
+        li(style="list-style:decimal;") Menor número de cartões vermelhos recebidos
+        li(style="list-style:decimal;") Menor número de cartões amarelos recebidos
+        li(style="list-style:decimal;") Sorteio
+    li(style="list-style:upper-alpha;") O atleta que receber dois cartões amarelos na primeira fase esta suspenso do jogo seguinte, exceto que esse jogo seja a final;
+    li(style="list-style:upper-alpha;") O atleta que receber cartão vermelho esta suspenso da próxima partida não havendo nenhum tipo de exceção;
+    li(style="list-style:upper-alpha;") A competição utilizará as regras oficiais do CBF7 (link abaixo);
+  br
+  h2 Anexos
+  p(class="lead") Segue abaixo links para download da regra oficial
+  ul
+    li: a(href="../files/000145_REGRAS_Oficiais_CBF7S_2017.pdf" target="_blank") Regras oficiais CBF7 
+          span(class="glyphicon glyphicon-save" aria-hidden="true")
+    li: a(href="../files/regras-basicas.jpg" target="_blank") Informativo  
+          span(class="glyphicon glyphicon-save" aria-hidden="true")

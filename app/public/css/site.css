@@ -1,0 +1,91 @@
+body.entrada {
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-color: #000";
+}
+
+
+body.internas {
+    background-color: white;
+}
+
+div.conteudo{
+    padding-bottom: 200px;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+div.logo {
+    background-image: url('../img/logo_liga.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 600px;
+    height: 145px;
+    background-color: #FDE00A;
+    margin-top: 2%;
+    margin-left: 0;
+    float: left;
+}
+
+div.lado{
+    display: inline-block;
+}
+
+div.footer{
+    background-color: #CCC;
+    opacity: 0.6;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+}
+
+div.footerInterna{
+    height: 180px;
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+}
+
+div.zero {
+    margin-left: 0;
+}
+div.itemPatrocinio{
+    display: inline-block;
+    padding: 0px 20px 0px 20px
+}
+
+ul.menuPos {
+    list-style-type: none;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul.menuInterna {
+    margin-top: 105px;
+    list-style-type: none;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    color: white;
+}
+
+li{
+    margin-top: 20px;
+}
+
+li.itemMenuInterno{
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+
+a.link{
+    color: white;
+}

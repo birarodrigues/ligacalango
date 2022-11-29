@@ -1,0 +1,24 @@
+{
+  "name": "liga-calango-2017",
+  "version": "1.0.0",
+  "description": "Site Oficial da Liga Calango de Futebol 2017",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch app.js --watch config --watch app"
+  },
+  "author": "Ubirajara Rodrigues",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "node-persist": "^3.0.1",
+    "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "keywords": [
+    "futebol",
+    "maceio"
+  ]
+}

@@ -1,0 +1,62 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url("../img/fundo.png");
+}
+.logo_stripe{
+  background-color: #fde00a;
+}
+.main{
+  background-color: rgba(245, 245, 245, 0.85);
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background-color: #f5f5f5;
+  padding: 5px 0 0 0;
+}
+.footer p{
+  margin:0;
+}
+.patrocinio{
+  margin: 10px 0 0 0;
+}
+.patrocinio ul{
+  background-color: blue;
+  margin: 0;
+  padding: 0;
+}
+.patrocinio ul li {
+  display:inline;
+  list-style-type:none;
+  margin:2;
+
+  float: left;
+  max-width: 190px;
+  max-height: 100px;
+  margin: auto;
+}
+.patrocinio ul li img{
+  width: 100%;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.navbar-inverse{
+  margin:0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}

@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: 
+Allow: /
+Allow: /regulamento
+Allow: /tabela
+Allow: /fotos
+Allow: /premiacao
+Allow: /local

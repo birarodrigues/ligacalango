@@ -1,0 +1,72 @@
+doctype html
+html(lang="pt-BR")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    meta(name="description" content="Liga Calango de Futebol, Patrocínio: BioMax Reagentes, Papelaria Fênix, Mendes Pinto - Inteligência Ambiental, ayna.tech")
+    meta(name="author" content="Liga Calango de Futebol")
+    link(rel="icon" href="../img/favicon.ico")
+    script
+      | (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      | (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      | m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      | })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      | ga('create', 'UA-41461911-3', 'auto');
+      | ga('send', 'pageview');
+
+
+    title LCF - Liga Calango de Futebol
+    meta(name="robot" content="index, follow")
+    
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+
+    
+    link(href="css/style.css" rel="stylesheet")
+  body
+    .container-fluid.logo_stripe.text-center
+      .container
+        .row
+          .col-sm-4
+            a(href="/"): img(src="../img/logo_liga.jpg" alt="Liga Calango de Futebol 2018")
+          .col-sm-8.patrocinio
+            p(class="text-left")
+              b Patrocínio
+            ul
+              li: a(href="https://biomaxlab.com.br/" class="thumbnail" target="_blank") 
+                img(src="../img/biomax.png" style="margin-top: 12px;" alt="BioMax Reagentes e Reagentes")
+              li: a(href="https://www.facebook.com/F%C3%AAnix-Papelaria-Inform%C3%A1tica-842168202536788" class="thumbnail" target="_blank")
+                img(src="../img/fenix-medium.png" alt="Papelaria Fênix")
+              li: a(href="#" class="thumbnail")
+                img(src="../img/mendes-medium.png" alt="Mendes Pinto - Inteligência Ambiental")
+              li: a(href="https://ayna.tech" class="thumbnail" target="_blank")
+                img(src="../img/ayna_wallpaper_bg.png" alt="Ayna .tech")
+    
+    
+    nav.navbar.navbar-inverse
+      .container
+        .navbar-header
+          button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar")
+            span(class="sr-only") Toggle navigation
+            span(class="icon-bar")
+            span(class="icon-bar")
+            span(class="icon-bar")
+        div(id="navbar" class="collapse navbar-collapse")
+          ul.nav.navbar-nav
+            li(class=path=='/'||!path?"active":''): a(href="/") Início
+            li(class=path=='/regulamento'?"active":''): a(href="regulamento") Regulamento
+            li(class=path=='/tabela'?"active":''): a(href="tabela") Tabela
+            li(class=path=='/artilharia'?"active":''): a(href="artilharia") Artilharia
+            li(class=path=='/goleiro'?"active":''): a(href="goleiro") Melhor Goleiro
+            li(class=path=='/premiacao'?"active":''): a(href="premiacao") Premiação
+            li(class=path=='/local'?"active":''): a(href="local") Local
+            //- li(class=path=='/fotos'?"active":''): a(href="fotos") Fotos
+
+    
+    .container.main
+      block content
+    
+    script(src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async)

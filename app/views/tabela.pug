@@ -1,0 +1,432 @@
+extends ./layout
+
+block content
+    .page-header
+      h1 Tabela 2019
+    .row
+        .col-md-5
+            .panel.panel-success
+              .panel-heading.text-center
+                strong Classificação 1ª Fase
+              table.table
+                tr
+                  td.text-center Times
+                  td.text-center P
+                  td.text-center J
+                  td.text-center V
+                  td.text-center E
+                  td.text-center D
+                  td.text-center GP
+                  td.text-center GC
+                  td.text-center SG
+                tr(style='font-weight:bold')
+                  td 1. Arsenown F.C.
+                    i(class="fa fa-trophy text-gold")
+                  td.text-center 10
+                  td.text-center 4
+                  td.text-center 3
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 17
+                  td.text-center 6
+                  td.text-center 11
+                tr(style='font-weight:bold') 
+                  td 2. GDF
+                  td.text-center 7
+                  td.text-center 4
+                  td.text-center 2
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 7
+                  td.text-center 9
+                  td.text-center -2
+                tr 
+                  td 3. Rapadura Mecânica
+                  td.text-center 6
+                  td.text-center 4
+                  td.text-center 1
+                  td.text-center 3
+                  td.text-center 0
+                  td.text-center 14
+                  td.text-center 10
+                  td.text-center 4
+                tr 
+                  td 4. Punk 4 Fun
+                  td.text-center 4*
+                  td.text-center 4*
+                  td.text-center 1*
+                  td.text-center 1
+                  td.text-center 2
+                  td.text-center 4
+                  td.text-center 8
+                  td.text-center -4
+                tr 
+                  td 5. Pedras Rolando F.C.
+                  td.text-center 0*
+                  td.text-center 4*
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 4*
+                  td.text-center 6
+                  td.text-center 15
+                  td.text-center -9
+                tr
+                  td(colspan=9) * - O jogo entre Punk4Fun e Pedras Rolando ocorreu WxO para o Punk4Fun.
+        .col-md-7
+            .panel.panel-success
+              .panel-heading.text-center
+                strong Jogos - Dia 14/12/2019
+              table.table
+                tr
+                  td.text-center 15:00
+                  td.text-left Campo 1 
+                  td Pedras Rolando F.C.
+                  td.text-center 2
+                  td.text-center X
+                  td.text-center 4
+                  td.text-right GDF
+                tr
+                  td.text-center 15:00
+                  td.text-left Campo 2 
+                  td Rapadura Mecânica
+                  td.text-center 3
+                  td.text-center X
+                  td.text-center 3
+                  td.text-right Arsenown F.C.
+                tr
+                  td.text-center 15:35
+                  td.text-left Campo 1 
+                  td Punk 4 Fun
+                  td.text-center 3
+                  td.text-center X
+                  td.text-center 3
+                  td.text-right Rapadura Mecânica
+                tr
+                  td.text-center 15:35
+                  td.text-left Campo 2 
+                  td Arsenown F.C.
+                  td.text-center 5
+                  td.text-center X
+                  td.text-center 2
+                  td.text-right Pedras Rolando F.C.
+                tr
+                  td.text-center 16:10
+                  td.text-left Campo 1 
+                  td Rapadura Mecânica
+                  td.text-center 6
+                  td.text-center X
+                  td.text-center 2
+                  td.text-right Pedras Rolando F.C.
+                tr
+                  td.text-center 16:10
+                  td.text-left Campo 2 
+                  td GDF
+                  td.text-center 1
+                  td.text-center X
+                  td.text-center 0
+                  td.text-right Punk 4 Fun
+                tr
+                  td.text-center 16:50
+                  td.text-left Campo 1 
+                  td Arsenown F.C.
+                  td.text-center 5
+                  td.text-center X
+                  td.text-center 0
+                  td.text-right GDF
+                tr
+                  td.text-center 16:50
+                  td.text-left Campo 2 
+                  td Punk 4 Fun
+                  td.text-center W
+                  td.text-center X
+                  td.text-center O
+                  td.text-right Pedras Rolando F.C.
+                tr
+                  td.text-center 17:25
+                  td.text-left Campo 1 
+                  td Punk 4 Fun
+                  td.text-center 1
+                  td.text-center X
+                  td.text-center 4
+                  td.text-right Arsenown F.C.
+                tr
+                  td.text-center 17:25
+                  td.text-left Campo 2 
+                  td Rapadura Mecânica
+                  td.text-center 2
+                  td.text-center X
+                  td.text-center 2
+                  td.text-right GDF
+                tr
+                  td(colspan="7" class="warning text-center") 
+                    strong Final - Dia 14/12/2019 (**)
+                tr(style='font-weight:bold')
+                  td.text-center 18:05
+                  td.text-left Campo 1 
+                  td Arsenown F.C.
+                  td.text-center 1
+                  td.text-center X
+                  td.text-center 1
+                  td.text-right GDF
+                tr
+                  td(colspan="7") 
+                    em (**) Com a melhor campanha na 1ª fase, o Arsenown FC jogou com a vantagem do empate na final.
+    .row
+      div.text-center
+        p.bg-warning.h1 ARSENOWN FC CAMPEÃO!               
+
+    .row
+      div.col-md-12
+        h3 Edições anteriores
+        div(class="panel-group" id="accordion")
+          div(class="panel panel-default")
+            div(class="panel-heading")
+              h4(class="panel-title")
+                a(data-toggle="collapse" data-parent="#accordion" href="#collapse1") Ano 2018 &nbsp;
+                  strong Campeão:&nbsp;
+                  span Rapadura Mecânica &nbsp;
+                  i(class="fa fa-trophy text-gold")
+            div(id="collapse1" class="panel-collapse collapse")
+              div(class="panel-body")
+                .row
+                  .col-md-5
+                      .panel.panel-success
+                        .panel-heading.text-center
+                          strong Classificação 1ª Fase
+                        table.table
+                          tr
+                            td.text-center Times
+                            td.text-center P
+                            td.text-center J
+                            td.text-center V
+                            td.text-center E
+                            td.text-center D
+                            td.text-center GP
+                            td.text-center GC
+                            td.text-center SG
+                          tr
+                            td 1.Rapadura Mecânica 
+                              i(class="fa fa-trophy text-gold")
+                            td.text-center 7
+                            td.text-center 3
+                            td.text-center 2
+                            td.text-center 1
+                            td.text-center 0
+                            td.text-center 5
+                            td.text-center 2
+                            td.text-center 3
+                          tr 
+                            td 2.Arsenown F.C.
+                            td.text-center 4
+                            td.text-center 3
+                            td.text-center 1
+                            td.text-center 1
+                            td.text-center 1
+                            td.text-center 7
+                            td.text-center 12
+                            td.text-center -5
+                          tr 
+                            td 3.Pedras Rolando F.C.
+                            td.text-center 3
+                            td.text-center 3
+                            td.text-center 1
+                            td.text-center 0
+                            td.text-center 2
+                            td.text-center 8
+                            td.text-center 9
+                            td.text-center -1
+                          tr 
+                            td 4.GDF
+                            td.text-center 3
+                            td.text-center 3
+                            td.text-center 1
+                            td.text-center 0
+                            td.text-center 2
+                            td.text-center 11
+                            td.text-center 8
+                            td.text-center 3
+                  .col-md-7
+                      .panel.panel-success
+                        .panel-heading.text-center
+                          strong Jogos - Dia 30/09/2018
+                        table.table
+                          tr
+                            td.text-center 08:30
+                            td.text-right Rapadura Mecânica
+                            td.text-center 1
+                            td.text-center X
+                            td.text-center 1
+                            td Arsenown F.C.
+                          tr
+                            td.text-center 09:15
+                            td.text-right Rapadura Mecânica
+                            td.text-center 2
+                            td.text-center X
+                            td.text-center 0
+                            td GDF
+                          tr
+                            td.text-center 10:00
+                            td.text-right Pedras Rolando F.C.
+                            td.text-center 4
+                            td.text-center X
+                            td.text-center 3
+                            td GDF
+                          tr
+                            td.text-center 10:45
+                            td.text-right Pedras Rolando F.C.
+                            td.text-center 3
+                            td.text-center X
+                            td.text-center 4
+                            td Arsenown F.C.
+                          tr
+                            td.text-center 11:30
+                            td.text-right Arsenown F.C.
+                            td.text-center 2
+                            td.text-center X
+                            td.text-center 8
+                            td GDF
+                          tr
+                            td.text-center 12:20
+                            td.text-right Pedras Rolando F.C.
+                            td.text-center 1
+                            td.text-center X
+                            td.text-center 2
+                            td Rapadura Mecânica
+                          tr
+                            td(colspan="6" class="warning text-center") 
+                              strong Final - Dia 30/09/2018
+                          tr
+                            td.text-center 13:10
+                            td.text-right 
+                              strong Arsenown F.C.
+                            td.text-center 2
+                            td.text-center X
+                            td.text-center 4
+                            td 
+                              strong Rapadura Mecânica
+        div(class="panel-group" id="accordion")
+          div(class="panel panel-default")
+            div(class="panel-heading")
+              h4(class="panel-title")
+                a(data-toggle="collapse" data-parent="#accordion" href="#collapse2") Ano 2017 &nbsp;
+                  strong Campeã:&nbsp;
+                  span GDF &nbsp;
+                  i(class="fa fa-trophy text-gold")
+            div(id="collapse2" class="panel-collapse collapse")
+              div(class="panel-body")
+                .row
+                  .col-md-5
+                    .panel.panel-success
+                      .panel-heading.text-center 
+                        strong Classificação 1ª Fase
+                      table.table
+                        tr
+                          td.text-center Times
+                          td.text-center P
+                          td.text-center J
+                          td.text-center V
+                          td.text-center E
+                          td.text-center D
+                          td.text-center GP
+                          td.text-center GC
+                          td.text-center SG
+                        tr 
+                          td 1.Rapadura Mecânica
+                          td.text-center 7
+                          td.text-center 3
+                          td.text-center 2
+                          td.text-center 1
+                          td.text-center 0
+                          td.text-center 14
+                          td.text-center 6
+                          td.text-center 8
+                        tr 
+                          td 2.GDF 
+                            i(class="fa fa-trophy text-gold")
+                          td.text-center 4
+                          td.text-center 3
+                          td.text-center 1
+                          td.text-center 1
+                          td.text-center 1
+                          td.text-center 7
+                          td.text-center 8
+                          td.text-center -1
+                        tr 
+                          td 3.Arsenown F.C.
+                          td.text-center 3
+                          td.text-center 3
+                          td.text-center 0
+                          td.text-center 3
+                          td.text-center 0
+                          td.text-center 11
+                          td.text-center 11
+                          td.text-center 0
+                        tr 
+                          td 4.Pedras Rolando F.C.
+                          td.text-center 1
+                          td.text-center 3
+                          td.text-center 0
+                          td.text-center 1
+                          td.text-center 2
+                          td.text-center 7
+                          td.text-center 13
+                          td.text-center -6
+                  .col-md-7
+                    .panel.panel-success
+                      .panel-heading.text-center 
+                        strong Jogos - Dia 22/07/2017
+                      table.table
+                        tr
+                          td.text-center 09:00
+                          td.text-right GDF
+                          td.text-center 2
+                          td.text-center X
+                          td.text-center 4
+                          td Rapadura Mecânica
+                        tr
+                          td.text-center 09:40
+                          td.text-right GDF
+                          td.text-center 3
+                          td.text-center X
+                          td.text-center 2
+                          td Pedras Rolando F.C.
+                        tr
+                          td.text-center 10:20
+                          td.text-right Arsenown F.C.
+                          td.text-center 5
+                          td.text-center X
+                          td.text-center 5
+                          td Pedras Rolando F.C.
+                        tr
+                          td.text-center 11:00
+                          td.text-right Arsenown F.C.
+                          td.text-center 4
+                          td.text-center X
+                          td.text-center 4
+                          td Rapadura Mecânica
+                        tr
+                          td.text-center 11:40
+                          td.text-right Pedras Rolando F.C.
+                          td.text-center 0
+                          td.text-center X
+                          td.text-center 5
+                          td Rapadura Mecânica
+                        tr
+                          td.text-center 12:20
+                          td.text-right Arsenown F.C.
+                          td.text-center 2
+                          td.text-center X
+                          td.text-center 2
+                          td GDF
+                        tr
+                          td(colspan="6" class="warning text-center") 
+                            strong Final - Dia 22/07/2017
+                        tr
+                          td.text-center 13:10
+                          td.text-right 
+                            strong Rapadura Mecânica
+                          td.text-center 2
+                          td.text-center X
+                          td.text-center 4
+                          td 
+                            strong GDF
