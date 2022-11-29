@@ -10,12 +10,12 @@
   "author": "Ubirajara Rodrigues",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "^4.18.2",
     "node-persist": "^3.0.1",
-    "pug": "^2.0.0-rc.2"
+    "pug": "^3.0.2"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^2.0.20"
   },
   "keywords": [
     "futebol",
