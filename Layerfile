@@ -1,4 +1,4 @@
-#layer file
+#layer file 2
 FROM vm/ubuntu:18.04
 
 RUN curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
